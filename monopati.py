@@ -82,8 +82,9 @@ def generate_posts():
         day = ('0' + str(datetime.tm_mday) if datetime.tm_mday < 10 else str(datetime.tm_mday))
 
         shortdate = str.join('.', (year, month, day))
-
-        postpath = path.join(year, month, day, slug)
+        
+        # I prefer URLs without date directories
+        postpath = path.join(slug)
         try:
             makedirs(postpath)
         except OSError:
