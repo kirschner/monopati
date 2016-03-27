@@ -66,11 +66,11 @@ body {
 }
 
 .container {
-    max-width: 800px;
+    max-width: 580px;
 }
 
 a {
-    color: #f06;
+    color: #3394CE;
 }
 
 blockquote {
@@ -113,7 +113,7 @@ img.txt {
 a:hover,
 a:active,
 a:visited {
-    color: #f06;
+    color: #3394CE;
     text-decoration: underline;
 }
 
@@ -140,4 +140,10 @@ a.text-muted {
 .post-title {
     margin-top: -10px;
     margin-bottom: 20px;
+}
+
+h1.navbar {
+    font-size: 3rem;
+    letter-spacing: 0px;
+    text-indent: 0px;
 }
